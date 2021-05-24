@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SkiaSharp;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -23,14 +24,34 @@ namespace ImageInpaintingApp
             {
                 var result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
                 {
-                    Title = "Select a photo"
+                    Title = "Select an image"
                 });
 
                 var stream = await result.OpenReadAsync();
-
+                SKBitmap bitmap = SKBitmap.Decode(stream);
+                await Navigation.PushAsync(new PhotoCroppingPage(pickedImage, bitmap));
                 pickedImage.Source = ImageSource.FromStream(() => stream);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
 
-            } catch (Exception ex)
+        private async void OnTakerClickedAsync(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = await MediaPicker.CapturePhotoAsync(new MediaPickerOptions
+                {
+                    Title = "Take a picture"
+                });
+
+                var stream = await result.OpenReadAsync();
+                SKBitmap bitmap = SKBitmap.Decode(stream);
+                await Navigation.PushAsync(new PhotoCroppingPage(pickedImage, bitmap));
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
