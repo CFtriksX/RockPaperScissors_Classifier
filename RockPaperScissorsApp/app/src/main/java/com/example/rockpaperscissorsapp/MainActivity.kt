@@ -96,7 +96,9 @@ class MainActivity : AppCompatActivity() {
         }
         if (resultCode == Activity.RESULT_OK && (requestCode == REQUEST_CODE_GALLERY || requestCode == REQUEST_CODE_CAMERA)) {
             bitmap.toSquare()?.let {
+
                 val model = RpsFineTunedModel.newInstance(applicationContext())
+
                 bitmap = it.copy(Bitmap.Config.ARGB_8888, true)
                 // Creates inputs for reference.
                 val image = TensorImage.fromBitmap(bitmap)
