@@ -25,6 +25,7 @@ $ .\.venv\Scripts\activate
 $ pip install --upgrade pip
 $ pip install -r .\requirements.txt
 ```
+**You may need to disable the max path lenght limit for python**
 ### Linux
 In a terminal in this forlder run those command:
 ```
