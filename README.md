@@ -7,7 +7,7 @@ This repos Contains an Android App that you can download.
 The app does not collect your informations. It is a demo app, you will therefore need to allow the app to be installed on your phone.
 
 **DEMO:**
-[demo](https://user-images.githubusercontent.com/35850997/119910565-b4b8c500-bf57-11eb-8fe1-729239a4e8cf.mp4)
+[Link to video](https://user-images.githubusercontent.com/35850997/119910565-b4b8c500-bf57-11eb-8fe1-729239a4e8cf.mp4)
 ## Table of Contents
 ***
 1. [Model Transer Learning and Compression](#model-transer-learning-and-compression)
