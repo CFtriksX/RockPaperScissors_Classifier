@@ -62,6 +62,7 @@ You can then pass to the compression part, launch the `TFliteCompression` and fo
 TensorFlow Lite metadata provides a standard for model descriptions. The metadata is an important source of knowledge about what the model does and its input / output information. The metadata consists of both:
 * Human readable parts which convey the best practice when using the model, and
 * Machine readable parts that can be leveraged by code generators.
+
 **The metadata is needed if you want to use your TF Lite model in the app**
 ### Windows
 In a command prompt, run this command:
