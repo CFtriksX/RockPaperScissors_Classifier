@@ -21,9 +21,9 @@ Before going into the code you must install the virtual env with all its depende
 In a command prompt in this folder run those command:
 ```
 $ python -m venv .venv
-$ .venv\Scripts\activate
+$ .\.venv\Scripts\activate
 $ pip install --upgrade pip
-$ pip install -r requirements.txt
+$ pip install -r .\requirements.txt
 ```
 ### Linux
 In a terminal in this forlder run those command:
@@ -31,7 +31,7 @@ In a terminal in this forlder run those command:
 $ python -m venv .venv
 $ source .venv/bin/activate
 $ pip install --upgrade pip
-$ pip install -t requirements.txt
+$ pip install -r requirements.txt
 ```
 ## Dataset
 ***
