@@ -63,7 +63,7 @@ TensorFlow Lite metadata provides a standard for model descriptions. The metadat
 * Human readable parts which convey the best practice when using the model, and
 * Machine readable parts that can be leveraged by code generators.
 
-**The metadata is needed if you want to use your TF Lite model in the app**
+**The metadata is needed if you want to use your TF Lite model in the app.**
 ### Windows
 In a command prompt, run this command:
 ```
