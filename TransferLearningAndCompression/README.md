@@ -35,7 +35,7 @@ $ pip install -t requirements.txt
 ```
 ## Dataset
 ***
-The dataset is composed of 2892 images, 964 for each sign. You can access the dataset by clicking [here](http://www.laurencemoroney.com/rock-paper-scissors-dataset/).
+The dataset is composed of 2892 images, 964 for each sign. You can access the dataset by clicking [here](https://laurencemoroney.com/datasets.html#rock-paper-scissors-dataset).
 
 The website seems to be unstable and is often offline, you can download the [train set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip) and the [test set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-test-set.zip) here without using the homepage.
 
