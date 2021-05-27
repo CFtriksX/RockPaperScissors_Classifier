@@ -35,7 +35,7 @@ $ pip install -t requirements.txt
 ```
 ## Dataset
 ***
-The dataset is composed of 2892 images, 964 for each sign. You can access the dataset by clicking [here](http://www.laurencemoroney.com/rock-paper-scissors-dataset/).
+The dataset is composed of 2892 images, 964 for each sign. You can access the dataset by clicking [here](https://laurencemoroney.com/datasets.html#rock-paper-scissors-dataset).
 
 The website seems to be unstable and is often offline, you can download the [train set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip) and the [test set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-test-set.zip) here without using the homepage.
 
@@ -62,7 +62,8 @@ You can then pass to the compression part, launch the `TFliteCompression` and fo
 TensorFlow Lite metadata provides a standard for model descriptions. The metadata is an important source of knowledge about what the model does and its input / output information. The metadata consists of both:
 * Human readable parts which convey the best practice when using the model, and
 * Machine readable parts that can be leveraged by code generators.
-**The metadata is needed if you want to use your TF Lite model in the app**
+
+**The metadata is needed if you want to use your TF Lite model in the app.**
 ### Windows
 In a command prompt, run this command:
 ```
