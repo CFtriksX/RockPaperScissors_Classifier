@@ -2,7 +2,7 @@
 ***
 This repos Contains an Android App that you can download.
 
-**Download the app APK [here](https://drive.google.com/file/d/1t2MZsOIG5bhyO3Uh8ZavGjvlAkePLWt0/view?usp=sharing)**
+**Download the app APK [here](https://drive.google.com/file/d/1m6T0w9EKBTIoCa7rLa_mqWjsQR7OIw9g/view?usp=sharing)**
 
 The app does not collect your informations. It is a demo app, you will therefore need to allow the app to be installed on your phone.
 
