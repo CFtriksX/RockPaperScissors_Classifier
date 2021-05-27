@@ -11,6 +11,7 @@ It also contains the code that compress the trained model to TensorFlow Lite mod
 1. [Set Up env](#set-up-env)
 2. [Dataset](#dataset)
 3. [Transfer learning and Compression](#transfer-learning-and-compression)
+4. [Metadata](#metadata)
 ## Set Up env
 ***
 This project use **Python 3.8**, make sure you run it with the correct version!
