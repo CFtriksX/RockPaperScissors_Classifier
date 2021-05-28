@@ -68,15 +68,15 @@ TensorFlow Lite metadata provides a standard for model descriptions. The metadat
 ### Windows
 In a command prompt, run this command:
 ```
-$ .venv\Script\python .\metadata_writter.py \
-    --model_file=.\saved_models\TFLiteModel\RPS_Fine_Tuned_Model.tflite \
-    --label_file=.\saved_models\TFLiteModel\label.txt \
-    --export_directory=saved_models\MetadataTFLModel
+$ .\.venv\Scripts\python.exe .\metadata_writter.py `
+    --model_file=.\saved_models\TFLiteModel\RPS_Fine_Tuned_Model.tflite `
+    --label_file=.\saved_models\TFLiteModel\label.txt `
+    --export_directory=saved_models\MetadataTFLModel 
 ```
 ### Linux
 In a terminal, run this command:
 ```
-.venv/bin/python ./metadata_writter.py \
+$ .venv/bin/python ./metadata_writter.py \
     --model_file=./saved_models/TFLiteModel/RPS_Fine_Tuned_Model.tflite \
     --label_file=./saved_models/TFLiteModel/label.txt \
     --export_directory=saved_models/MetadataTFLModel
